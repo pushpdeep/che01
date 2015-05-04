@@ -1,0 +1,291 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>                           P Control 
+</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Simulation of Control of Magnetic Levitation System</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+            P Control        </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+					
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+<section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg">
+					</div>
+	
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                       Aim
+                    </div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+<div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                               
+
+                                                      <p align="justify">In this experiment, we study the proportional (or P) feedback control strategy for the Maglev plant. We study the feedback control strategy, derive the closed loop transfer function, and simulate the closed loop system. We also study the limitations of P control for the Maglev plant for achieving desired pole placement. </p>
+							
+	</div>
+					</div>
+				</section>
+				<section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg">
+					</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                    Introduction   
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent">
+							<p align="justify" >Next to the On-Off control strategy, the simplest control strategy is the one called proportional control strategy. In this strategy, the output of the controller is proportional to its input (which is usually the error signal). The control law therefore involves only the proportionality constant, called gain of the controller. There is no dynamic element in this controller. The proportional controller can be very simply implemented, as only a gain element (such as an op-amp) needs to be used. The P control strategy is used to provide (high) gain feedback around motors and amplifier systems, for instance. </p>
+							<br>
+							<p align="justify">In this experiment, weapply the P control strategy to the Maglev plant. We attempt to design a P controller so as to place the closed loop complex poles at desired locations in the complex plane. We see that P control can achieve only the desired imaginary part, but not the desired real part of the closed loop poles. We validate our design through closed loop simulation. </p>
+							<br>
+							<br><br>
+						</div>
+					</div>
+				</section>
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg"><br>
+					Theory</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                       
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+<h3><span style="font-size: 12pt; line-height: 150%;">&nbsp; <a href="../downloads/exp20/theory.pdf" target="_blank"><em>Click here to read Theory ...</em></a></span><span style="font-size: 12pt; line-height: 150%;"><o:p></o:p></span></h3>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/quiz.png">
+					</div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Quiz
+                    </div>
+					
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+					<div class="divQuiz"><div id="displayQuiz"><form name="form11" id="form11" method="post">
+						<table style="width:100%;margBacklash-left:0px" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The Maglev plant is under P control. Then, for closed loop stability, the real part of the closed loop complex poles</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;"><div style="padding-left:25px;display:none;" id="hintDiv10"><input id="helpUsed10" name="helpUsed10" value="N" type="hidden"><img onclick="javascript:showHint('1812',10,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6820" name="ans0" value="6820" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6820">Must have a negative value</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6821" name="ans0" value="6821" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6821">Must have a positive value</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6822" name="ans0" value="6822" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6822"> Must be chosen to have a value less than -1</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6823" name="ans0" value="6823" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6823">Must be zero</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The Maglev plant is under P control. Then, the real part of the closed loop complex poles</span></td><td colspan="3" width="3%" style="margin-left:0px">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6824" style="vertical-align:middle" name="ans1" value="6824" type="radio"> <label for="ans6824" id="textAnsChoice">Are determined by the plant parameters and cannot be placed at any location</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6825" style="vertical-align:middle" name="ans1" value="6825" type="radio"> <label for="ans6825" id="textAnsChoice">Are determined by Kc and can be placed at any desired location</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6826" style="vertical-align:middle" name="ans1" value="6826" type="radio"> <label for="ans6826" id="textAnsChoice">Are determined by Kc but can only be placed at the same value as imaginary part b’</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6827" style="vertical-align:middle" name="ans1" value="6827" type="radio"> <label for="ans6827" id="textAnsChoice">Are independent parameters not determined by the plant or Kc.</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The Maglev plant is under P control. Then, the imaginary part b’ of the closed loop complex poles</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;"><div style="padding-left:25px;display:none;" id="hintDiv12"><input id="helpUsed12" name="helpUsed12" value="N" type="hidden"><img onclick="javascript:showHint('1814',12,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6828" name="ans2" value="6828" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6828">is determined by Kc and can be placed at any desired location</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6829" name="ans2" value="6829" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6829">Is determined by Kc but can only be placed in the left half of complex plane</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6830" name="ans2" value="6830" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6830">Is independent parameters not determined by the plant or Kc.</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6831" name="ans2" value="6831" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6831">It does not give any offset</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">As the proportional gain Kc increases, the imaginary part b’ of the closed loop complex poles</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6832" name="ans3" value="6832" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6832">It does not give good control accuracy</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6833" name="ans3" value="6833" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6833">decreases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6834" name="ans3" value="6834" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6834">increases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6835" name="ans3" value="6835" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6835">Tdoes not change</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0" style="margin-left:0px"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">For the Maglev plant, suppose Kc is increased from large negative to large positive values. Then, which of this is true?</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;" style="margin-left:0px"><div style="padding-left:25px;display:none;" id="hintDiv14"><input id="helpUsed14" name="helpUsed14" value="N" type="hidden"><img onclick="javascript:showHint('1816',14,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6836" style="vertical-align:middle" name="ans4" value="6836" type="radio"> <label for="ans6836" id="textAnsChoice">closed loop system goes from stable to unstable</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6837" style="vertical-align:middle" name="ans4" value="6837" type="radio"> <label for="ans6837" id="textAnsChoice">closed loop system goes from unstable to stable</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6838" style="vertical-align:middle" name="ans4" value="6838" type="radio"> <label for="ans6838" id="textAnsChoice">closed loop system goes from unstable to stable to unstable</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6839" style="vertical-align:middle" name="ans4" value="6839" type="radio"> <label for="ans6839" id="textAnsChoice">closed loop system remains stable</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><input id="loadTime" name="loadTime" value="1429350257/" align="middle" type="hidden"><br><div style="padding-left:40px;"><input name="submit1" id="submit1" value="&nbsp;Submit&nbsp;" style="width:8%;" onclick="get_radio_value();" type="submit">&nbsp;&nbsp;<input name="cancel1" id="cancel1" value="&nbsp;Cancel&nbsp;" style="width:8%;" type="reset"></div></form><br></div><br></div>
+						</div>
+					</div></section>
+
+ 
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+        <div class="divContent"><p>&nbsp;</p>
+<h2>&nbsp;Steps for Simulation</h2>
+<p>&nbsp;</p>
+<p><strong><big><span style="color: rgb(255, 0, 0);">Please download and install the Runtime  Engine on your computer</span> </big></strong></p>
+<p><strong><big><span style="color: rgb(255, 0, 0);">before attempting for any of the given  experiments .</span></big></strong></p>
+<p>&nbsp;</p>
+<p><big>If you haven't,  please</big><big> </big><span class="CLS_Headin"><u> </u></span><a href="http://www.sc.iitb.ac.in/%7Ecarimo/Maglev_VIs/LabVIEW_RT_Engine2012.zip"><span class="CLS_Headin"><u><em><strong> </strong><span style="color: rgb(0, 0, 255);"><big><strong>Download</strong></big></span></em></u></span></a>&nbsp;  <big>it now</big></p>
+<p><big> </big><strong><big>Please note that you  can't perform any experiment without Runtime Engine.</big></strong></p>
+<p><span style="font-size: 14px;">If you haven't downloaded the experiment zip file, please download it from the below link,</span></p>
+<p><strong><big>Link for downloading the Experiment file</big></strong>&nbsp;<span class="CLS_Headin"><u>&nbsp;</u></span><span class="CLS_Headin"><u><em><a href="http://www.sc.iitb.ac.in/~carimo/Maglev_VIs/Magnetic_Levitation.zip"><span style="color: rgb(0, 0, 255); "><big><strong>Download Experiment</strong></big></span></a></em></u></span></p>						</div>
+					</div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"><br>
+					Procedure</div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                   
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-6-content">
+                        <div class="divContent">
+							
+							
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                           Procedure for P Control experiment</span></b><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
+							<br>
+							
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            In the User Interface (UI) provided for this experiment:</span></p>
+							<br>
+							<b><i>Instructions:-</i></b>
+							<br>
+                            <ol start="1" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									You will get the random values in their respective random parameters Indicators.</span></li>
+							</ol>
+						
+							<ol start="2" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									According to the given data calculate Real part a’ of closed loop poles & Proportional gain Kc for each set of values.</span></li>
+							</ol>
+						
+							  <ol start="3" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									 Enter the answer calculated above in their respective control box.</span></li>
+							</ol>
+							
+                            <ol start="4" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									Check the answer for every set of values by clicking on the check button provided at the right hand side.</span></li>
+							</ol>
+									
+							<ol start="5" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+								If you are satisfied with the answers click on the submit button to log your answers in an Excel file.</span></li>
+							</ol>		
+<br><br>            			</div>
+                        </div>   
+                </section>
+
+ <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Things to think about
+                    </div>
+					 <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                   
+        
+					<br>
+					<ol type="1">
+						<li>For a given Kc , is the location of the closed loop poles dependent on the initial height y0 of the magnet. If yes, how?
+						</li>
+						<li>        What are the grey color curves in the pole-zero maps?</li>
+						<li>   What happens when the Kc  value is negative? </li>
+						<li>   Do negative values of Kc  mean that feedback is positive, instead of negative?</li>
+						<li>   Can you derive the formula for Kc  to get real closed loop poles? Are the real poles always such that one is positive, and the other negative?</li>
+							</ol>
+							<br>					<br>
+			</div>
+					</div>
+			</section>
+						</div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

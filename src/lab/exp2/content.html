@@ -1,0 +1,299 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>                             Transient Response
+</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Simulation of Control of Magnetic Levitation System</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+            Transient Response         </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+					
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+<section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg">
+					</div>
+	
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                       Aim
+                    </div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+<div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                               
+
+                                                      <p>In this experiment, we study the time response characteristics of the Maglev plant model (without any controller) to a unit step input, in control theory , it is also known as the “Open Loop Step Response”. The response characteristics studied are the rise time, settling time, peak overshoot. We also study the effect of the various plant parameters on these response characteristics. </p>
+	</div>
+					</div>
+				</section>
+				<section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg">
+					</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                    Introduction   
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent">
+							<p align="justify" >Knowledge of the transient response characteristics of the Maglev plant is helpful in choosing the right specifications for control design. For instance, if we have an idea of the settling time of the Maglev plant, we can specify a smaller settling time for the closed loop system under feedback control, and thereby speedup the system. Again, a more oscillatory Maglev plant response means that more damping is to be specified for the closed loop system under feedback control </p>
+							<br>
+							<p align="justify">By varying the plant parameters and seeing their effects on the response, we can get an idea of the sensitivity of the output to the plant parameters.  This idea is useful in designing more robust controllers capable of handling the variations in plant parameters. </p>
+							<br>
+							<p align="justify">It is the aim of this experiment to study the time response characteristics that provide useful information for subsequent control design studies. It should be noted that the transient response parameters can be calculated for the stable plant only.</p>
+							<br>
+						</div>
+					</div>
+				</section>
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/manual.jpg"><br>
+					Theory</div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                       
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+<h3><span style="font-size: 12pt; line-height: 150%;">&nbsp; <a href="../downloads/exp18/theory.pdf" target="_blank"><em>Click here to read Theory ...</em></a></span><span style="font-size: 12pt; line-height: 150%;"><o:p></o:p></span></h3>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/quiz.png">
+					</div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Quiz
+                    </div>
+					
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+					<div class="divQuiz"><div id="displayQuiz"><form name="form11" id="form11" method="post"><table style="width:100%;margin-left:0px" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">	1)	As the mass of magnet increases, the damping factor</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;"><div style="padding-left:25px;display:none;" id="hintDiv10"><input id="helpUsed10" name="helpUsed10" value="N" type="hidden"><img onclick="javascript:showHint('1812',10,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6820" name="ans0" value="6820" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6820">Increases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6821" name="ans0" value="6821" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6821">Decreases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6822" name="ans0" value="6822" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6822">Remains Constant</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6823" name="ans0" value="6823" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6823">Increases then decreases</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">As the mass of magnet increases, the natural frequency</span></td><td colspan="3" width="3%" style="margin-left:0px">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6824" style="vertical-align:middle" name="ans1" value="6824" type="radio"> <label for="ans6824" id="textAnsChoice">Increases</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6825" style="vertical-align:middle" name="ans1" value="6825" type="radio"> <label for="ans6825" id="textAnsChoice">Decreases</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6826" style="vertical-align:middle" name="ans1" value="6826" type="radio"> <label for="ans6826" id="textAnsChoice">Remains Constant</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6827" style="vertical-align:middle" name="ans1" value="6827" type="radio"> <label for="ans6827" id="textAnsChoice">Increases then decreases</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">As the mass of magnet increases, the plant gain</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;"><div style="padding-left:25px;display:none;" id="hintDiv12"><input id="helpUsed12" name="helpUsed12" value="N" type="hidden"><img onclick="javascript:showHint('1814',12,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6828" name="ans2" value="6828" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6828">Increases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6829" name="ans2" value="6829" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6829">Decreases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6830" name="ans2" value="6830" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6830">Remains Constant</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6831" name="ans2" value="6831" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6831">Increases then decreases</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">As the mass of magnet increases, the final output value</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6832" name="ans3" value="6832" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6832">Increases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6833" name="ans3" value="6833" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6833">Decreases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6834" name="ans3" value="6834" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6834">Remains Constant</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6835" name="ans3" value="6835" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6835">Increases then decreases</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><table style="width:100%" border="0" style="margin-left:0px"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">As the initial height of the magnet increases, the damping</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;" style="margin-left:0px"><div style="padding-left:25px;display:none;" id="hintDiv14"><input id="helpUsed14" name="helpUsed14" value="N" type="hidden"><img onclick="javascript:showHint('1816',14,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6836" style="vertical-align:middle" name="ans4" value="6836" type="radio"> <label for="ans6836" id="textAnsChoice">Increases</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6837" style="vertical-align:middle" name="ans4" value="6837" type="radio"> <label for="ans6837" id="textAnsChoice">Decreases</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6838" style="vertical-align:middle" name="ans4" value="6838" type="radio"> <label for="ans6838" id="textAnsChoice">Remains Constant</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6839" style="vertical-align:middle" name="ans4" value="6839" type="radio"> <label for="ans6839" id="textAnsChoice">Increases then decreases</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><input id="loadTime" name="loadTime" value="1429350257/" align="middle" type="hidden"><br><div style="padding-left:40px;"><input name="submit1" id="submit1" value="&nbsp;Submit&nbsp;" style="width:8%;" onclick="get_radio_value();" type="submit">&nbsp;&nbsp;<input name="cancel1" id="cancel1" value="&nbsp;Cancel&nbsp;" style="width:8%;" type="reset"></div></form><br></div><br></div>
+						</div>
+					</div></section>
+
+ 
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+        <div class="divContent"><p>&nbsp;</p>
+<h2>&nbsp;Steps for Simulation</h2>
+<p>&nbsp;</p>
+<p><strong><big><span style="color: rgb(255, 0, 0);">Please download and install the Runtime  Engine on your computer</span> </big></strong></p>
+<p><strong><big><span style="color: rgb(255, 0, 0);">before attempting for any of the given  experiments .</span></big></strong></p>
+<p>&nbsp;</p>
+<p><big>If you haven't,  please</big><big> </big><span class="CLS_Headin"><u> </u></span><a href="http://www.sc.iitb.ac.in/%7Ecarimo/Maglev_VIs/LabVIEW_RT_Engine2012.zip"><span class="CLS_Headin"><u><em><strong> </strong><span style="color: rgb(0, 0, 255);"><big><strong>Download</strong></big></span></em></u></span></a>&nbsp;  <big>it now</big></p>
+<p><big> </big><strong><big>Please note that you  can't perform any experiment without Runtime Engine.</big></strong></p>
+<p><span style="font-size: 14px;">If you haven't downloaded the experiment zip file, please download it from the below link,</span></p>
+<p><strong><big>Link for  downloading the Experiment file</big></strong><big> &nbsp; </big>&nbsp;<span class="CLS_Headin"><u> </u></span><a href="http://www.sc.iitb.ac.in/%7Ecarimo/Maglev_VIs/Magnetic_Levitation.zip"><span class="CLS_Headin"><u><em><strong> </strong><span style="color: rgb(0, 0, 255);"><big><strong>Download Experiment</strong></big></span></em></u></span></a></p>
+						</div>
+					</div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"><br>
+					Procedure</div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                   
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-6-content">
+                        <div class="divContent">
+							
+							
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                           Procedure</span></b><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:</span></p>
+							<br>
+							
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            In the User Interface (UI) provided for this experiment:</span></p>
+							<br>
+							<b><i>Instructions:-</i></b>
+							<br>
+                            <ol start="1" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									You will get the random values in Random Parameter a, and Random Parameter b Indicators.</span></li>
+							</ol>
+						
+							<ol start="2" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									According to the given data calculate Plant gain (DC Gain), Damping Factor , & Natural Frequency , for each set of values.</span></li>
+							</ol>
+						
+							  <ol start="3" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									 Then calculate the Rise time , Settling time , & Peak Overshoot (PO in %) values for each set of values.</span></li>
+							</ol>
+							
+                            <ol start="4" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									Enter the answer calculated above in the particular box.</span></li>
+							</ol>
+									
+							<ol start="5" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+								Check the answer for every set of values by clicking on the check button provided at the right hand side.</span></li>
+							</ol>		
+							<ol start="6" type="1">
+                                <li class="MsoNormal" style=
+                                "line-height: 150%;"><span lang="EN-IN" style=
+                                'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+									If you are satisfied with the answers click on the submit button to log your answers in an Excel file.</span></li>
+							</ol>
+<br><br>            			</div>
+                        </div>   
+                </section>
+
+ <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Things to think about
+                    </div>
+					 <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                   
+        
+					<br>
+					<ol type="1">
+						<li>Does the speed of maglev plant response change with viscous friction? Why?
+						</li>
+						<li>   How is the natural frequency related to the speed of response (settling time or rise time)?
+							Is the relation direct or inverse?</li>
+						<li>   Is the transfer function of the Maglev plant stable for all parameter variations possible in the UI?</li>
+						<li>Which parameter has the maximum effect on overshoot?</li>
+						<li> Which parameter has the maximum effect on plant gain?</li>
+							</ol>
+							<br>
+						 
+					<br>
+			</div>
+					</div>
+			</section>
+			
+                
+
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

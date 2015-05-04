@@ -1,0 +1,406 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Magnetic Levitation System</title>
+</head>
+
+<body>
+    <div id="lab">
+        <!-- The Lab Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+        <header id="lab-header">
+            <div class="logo" id="lab-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="images/logo.jpg"></div>
+
+            <div class="heading" id="lab-header-heading">
+                <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+                <a href="index.html">Magnetic Levitation System</a>
+            </div><!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="lab-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <header id="lab-article-header">
+                <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+
+                <div class="heading" id="lab-article-heading">
+                    Welcome to Magnetic Levitation lab!
+                </div><!-- Add any additional element if required with proper 
+      enclosing-->
+            </header><!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+
+            <nav class="default" id="lab-article-navigation">
+                <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+            </nav><!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+
+            <div id="lab-article-sections">
+                <!-- First section of the article-->
+
+                <section id="lab-article-section-1">
+                    <div class="icon" id="lab-article-section-1-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-1-heading">
+                        Introduction
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-1-content">
+                        <p><b><u>Magnetic Levitation</u></b>
+
+<br>
+The Magnetic Levitation (Maglev) unit demonstrates closed loop levitation of permanent and ferromagnetic elements. The unit used for our experiments is shown in Figures 1 and 2, and the magnetic disc is shown in Figure 3.
+</br>
+<img src="1.png" >
+<img src="2.png" >
+<img src="3.png" ><br />
+
+The plant consists of upper and lower coils that produce a magnetic field in response to a DC current. A magnet (or sometimes even two magnets) travels along a glass guide rod. By energizing the lower coil, a single magnet is levitated through a repulsive magnetic force. As the current in the coil increases, the field strength increases and the levitated magnet height is increased. For the upper coil, the levitating force is attractive.
+
+Up to two magnets may be controlled simultaneously by stacking them on the glass rod. The magnets are of ultra-high field strength and are designed to provide large levitated displacements to clearly demonstrate the principle of levitation and motion control. Two laser-based sensors measure the magnet positions. The lower sensor is typically used to measure a given magnet position in proximity to the lower coil, and the upper one for proximity to the upper coil.
+
+The unit can be set up in the stable and unstable (repulsive and attractive fields) configurations. If two magnets and coils are used, the field interaction between the magnets causes strong cross coupling and thus produces a true multivariable system. Thus, magnets can be added or removed to provide single loop or multi-loop plants that are stable or unstable. These configurations are illustrated in Figure 4 below.
+<img src="4.png" >
+<img src="5.png" > 
+
+Most experiments deal with the so-called configuration1 shown in Figures 5 and 6. It is a configuration in which the lower magnet is levitated by exciting the lower electromagnetic coil. The excitation of the lower electromagnet causes the repulsive force on the magnetic disc. The repulsive force in turn levitates the magnetic disc. It is a stable configuration.
+
+<img src="6.png" >
+<img src="7.png" >
+</p>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="lab-article-section-2">
+                    <div class="icon" id="lab-article-section-2-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/simulation.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+
+                    <div class="heading" id="lab-article-section-2-heading">
+                        List of <br />experiments
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-2-content">
+                        <ul id="list-of-experiments">
+                            <li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp1/index.html">1.Plant Modeling</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp2/index.html">2.Transient Response</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp3/index.html">3.On-Off Control</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp4/index.html">4.P-Control</a>
+                            </li>
+			    <li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp5/index.html">5.Frequency Response</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp1/index.html">6.PD Control for desired pole placement</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp1/index.html">7.PD Control for desired transient response</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp1/index.html">8. PID control for desired transient response</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp1/index.html">9. PD Control for desired transient response - Unstable Plant</a>
+                            </li>
+<li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="exp1/index.html">10. PD Control for desired transient response - Unstable Plant</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+ <section id="lab-article-section-3">
+                    <div class="icon" id="lab-article-section-3-icon">
+                    <!-- Enclose the icon image for the section. -->
+<img src="images/introduction.jpg">
+                    </div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-3-heading">
+                        Instructions
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-3-content">
+                        <p>
+
+ 
+ 
+
+1.     Visit all the tabs given on this website, especially visit the 'Introduction' tab, and read the overall description about Magnetic levitation. Also, see the list of experiments under 'List of experiments' tab.<br />
+
+ 
+
+2.     You have to do the experiments in sequential order, that is first do experiment 1, then experiment 2, then  experiment 3, and so on. Do not jump over to any experiment, without doing all the earlier experiments and submitting their results.<br />
+
+ 
+
+3.     Now proceed to do the experiments, one by one.<br />
+
+ 
+
+4.  For each experiment, you will find various tabs, such as: Aim, Introduction, Theory, Procedure, Experiment, Quiz, and Things to think about.<br />
+
+ 
+
+5.     Begin by clicking on Experiment 1. Read the Aim, Introduction, Theory, and Procedure. Understand what is given in these topics, and become familiar with the procedure.<br />
+
+ 
+
+6.     When you are ready to perform the experiment, click on the Experiment tab. Follow the procedure (as given under the previous tab).<br />
+
+ 
+
+7.     Go to the Quiz section by clicking on the Quiz tab and answer all the quiz questions and press Submit.<br />
+
+ 
+
+8.     Lastly, visit the section Things to Think About, by clicking on the tab. In this section, some advanced questions are given. You are to think over, discuss, and perform any additional experiments, to arrive at the answers. For this section, we do not provide the right answers. So, you have to figure them out yourself and get them evaluated by your instructor (if required).<br />
+
+</p>
+</div>
+</section>
+<section id="lab-article-section-4">
+                    <div class="icon" id="lab-article-section-4-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-4-heading">
+                        Pre-Requisite <br />Softwares
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-4-content">
+                        <p> <b>Please download and install the Runtime Engine on your computer before attempting for any of the given experiments . </b><br /> 
+<a href="http://www.sc.iitb.ac.in/%7Ecarimo/Maglev_VIs/LabVIEW_RT_Engine2012.zip" > Download Runtime Engine </a> <br />
+Please note that you cannot perform any experiment without -<br />
+
+ 
+
+    1. LabVIEW Runtime Engine.<br />
+
+ 
+
+    2. Microsoft Excel.<br />
+
+ 
+
+    3. C Drive in the local machine.<br />
+ 
+Steps for performing the experiments<br />
+
+ 
+
+Step_1   Download experiment file to your computer through link given below<br />
+
+ 
+
+Step_2   Unzip the downloaded file at your working directory.<br />
+
+ 
+
+Step_3   Run Maglev.exe file from the extracted folder.<br />
+
+ 
+
+Step_4   Follow the instructions given in 'Procedure' tab to perform the experiment<br />
+
+ 
+
+Link for downloading the Experiment file <a href="http://www.sc.iitb.ac.in/%7Ecarimo/Maglev_VIs/Magnetic_Levitation.zip" > Download Experiment </a>
+</p>
+</div>
+</section>
+<section id="lab-article-section-5">
+                    <div class="icon" id="lab-article-section-5-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-5-heading">
+                        Videos
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-4-content">
+                        <p> The first Video shows the magnetic levitation system present in the Systems and Control Engineering Laboratory at IIT Bombay. Our simulation exerciseshave been designed based on this setup. The video shows the various subsystems, and demonstrates the levitation of the magnet. (acronyms used in the video: SISO is single input, single output, MISO is multi input multi output, SIMO is single input multi output, and MIMO is multi output multi output).<br /> <br /> </p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/TAIbyoRC9Oo" frameborder="0" allowfullscreen></iframe>
+
+
+
+<p>
+The second video shows various kinds of responses of the magnetic levitation system under PD control. We can see underdamped, overdamped, and critically damped responses of the maglev for different values of the PD parameters.(The PD values shown in the video may be different from the ones you calculate and use in the simulation exercises)
+<br /> <br /></p>
+
+<iframe width="425" height="349" src="https://www.youtube.com/embed/mgIqDXeVXWc" frameborder="0" allowfullscreen></iframe>
+</div>
+</section>
+
+<section id="lab-article-section-6">
+                    <div class="icon" id="lab-article-section-6-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-6-heading">
+                        References
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-6-content">
+                        <p> <b>Books</b> <br />
+
+ 
+
+1.       K. J. Astrom and T. Hagglund, PID Controllers: Theory, Design, and Tuning, Second edition, ISA, New York, 1995. (ISBN-10:
+
+           1556175167).<br />
+
+2.       K. J. Astrom and T. Hagglund, Advanced PID control, ISA, New York, 2006 (ISBN-10: 556179421).<br />
+
+3.       J. J.D'Azzo and C. H. Houpis, Linear Control System Analysis and Design: Conventional and Modern, McGrawHill, Singapore, 1988.<br />
+
+4.       B.V.Jayawant, Electromagnetic Levitation and Suspension Techniques, Edward Arnold Publishers, London, 1981.<br />  
+
+5.       J.D. Kraus, Electromagnetics, McGraw Hill, New York, 1992<br />
+
+6.       N.  S. Nise, Control Systems Engineering, Sixth Edition, John Wiley & Sons, 2010<br />
+v
+7.       E. Purcell,Electricity & Magnetism, McGraw-Hill, New York, 1965.<br />
+
+ 
+
+ 
+<b>Reports</b><br />
+
+ 
+
+1.       J.L. He, D.M. Rote, H.T. Coffey, Study of Japanese Electrodynamic Suspension Maglev Systems, Argonne National Lab, Argonne, IL,
+
+           60439, April 1994.<br />
+
+2.       M.Proise, New York State Technical and Economic Maglev Evaluation,Grumman Space and Electronics Division, New York, June 1991.<br />
+
+ 
+
+ 
+<b>Web Sites</b><br />
+
+1.<a href="http://bmes.ece.utexas.edu/%7Ejcamp/physics/index.html" target="_blank">,Descriptive link of Maglev technologies and basic physics</a><br />
+2.<a href="http://www.rtri.or.jp/" target="_blank">,RTRI Home page. Japanese EDS Maglev.</a>
+3.<a href="http://www.mvp.de/" target="_blank">,Transrapid Official Homepage. German EMS Maglev.</a>
+4.<a href="http://www.meitetsu.co.jp/chsst/mecha.html" target="_blank">,Mechanism of HSST. Japanese EMS.</a>
+5.<a href="http://popularmechanics.com/popmech/sci/9805STTRP.html" target="_blank">,"Track to the Future" article. Descriptive article of one recent Maglev approach</a>
+6.<a href="http://www.llnl.gov/str/Post.html" target="_blank">, "A New Approach to Levitating Trains - and Rockets." Elaboration of the previous link for a Maglev approach.</a>
+ </p>
+</div>
+</section>
+
+<section id="lab-article-section-7">
+                    <div class="icon" id="lab-article-section-7-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-7-heading">
+                        About <br /> Us
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-7-content">
+                        <p> </p>
+</div>
+</section>
+<section id="lab-article-section-8">
+                    <div class="icon" id="lab-article-section-8-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id="lab-article-section-8-heading">
+                        Feedback
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-8-content">
+                        <p> </p>
+</div>
+</section>
+ 
+            </div><!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+
+            <aside class="default" id="lab-article-sidebar">
+                <!-- put the content that you want to appear in the 
+        sidebar-->
+            </aside><!-- Article footer can display related content and 
+      additional links -->
+
+         </article><!-- Links to other labs, about us page can be kept the lab -->
+  
+
+        <footer  class="footer">
+        <!-- Put the content here -->
+        <div style="margin-left:40%; margin-right:40% ">
+        <a href="license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+        </div>
+      </footer> 
+    </div>
+</body>
+</html>

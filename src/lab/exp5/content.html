@@ -1,0 +1,274 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frequency Response</title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Magnetic Levitation System Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Frequency Response
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <h2 style="color: Red;"><strong style=
+                            "text-decoration: underline"><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
+                            <span style=
+                            "font-size: large;">Aim</span></span></strong></h2>
+
+                            <p>&nbsp;</p>
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"></a></p>
+
+                            <p><span style=
+                            "font-size: medium; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this experiment, we first compute the frequency response of the Maglev plant and obtain the Bode, Nyquist and Nichols plots. We then obtain the frequency response of the Maglev plant under P control. We vary the P action, and study its effect on the gain-phase margins of the system. </span></p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Introduction
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                     <p>
+The frequency response of a system expresses how a sinusoidal signal of a given frequency on the systeminput is transferred through the system. Signals inthe system, such as the reference (setpoint) signal, disturbance signal, or measurement signals which areinputs signals to signal filters, consist of several frequency components. Each frequency component is a sinusoidal signal having certain amplitude and phase. Somecomponents may be amplified, others may be attenuated, and there will besome phase lag through the system.The frequency response expresses how each ofthese frequency components is transferred through the system.<br />
+ 
+Among the three domains- frequency, time, and Laplace domains, often the best controller designs are obtained in the frequency domain. Hence, frequency domain is a commonly used and preferred domain for control design. The basic information in this domain is the magnitude and phase values (or real and imaginary parts) of the frequency response at each frequency. These can be easily obtained from a given transfer function model, and shown in the form of Bode, Nyquist, or Nichols plots. From these plots, we can find the stability (gain-phase) margins, which give us an idea how stable the system will be under feedback control.<br /> 
+ 
+For the Maglev plant, we obtain the frequency responses (in terms of Bode, Nyquist, and Nichols plots) for various values of proportional gain. We observe the variations in stability margins with P gain. We use this study to design a P controller for achieving desired gain-phase margins.   </p>  
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+                        <div class="divContent">
+                           <p> <a target="_blank" href="/userfiles/2/file/Maglev/Exp_5/Theory_5(1).pdf" >Click Here to read theory </a></p>
+</div> 
+</section>
+
+ 
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                            <p><b>Steps for Simulation</b><br />
+ 
+
+ 
+
+Please download and install the Runtime Engine on your computer
+
+before attempting for any of the given experiments .
+
+ 
+
+If you haven't,please<a href="http://www.sc.iitb.ac.in/~carimo/Maglev_VIs/LabVIEW_RT_Engine2012.zip">  Download </a> it now<br />
+
+Please note that you can't perform any experiment without Runtime Engine.<br />
+
+If you haven't downloaded the experiment zip file, please download it from the below link,<br />
+
+Link for downloading the Experiment file <a href="http://www.sc.iitb.ac.in/~carimo/Maglev_VIs/Magnetic_Levitation.zip"> Download Experiment
+</a></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Procedure 
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <p>
+In the User Interface (UI) provided for this experiment:<br />
+ 
+
+ <b>Instructions:-</b><br />
+1. You will get the random values in their respective random parameters Indicators.<br />
+2. According to the given data calculate Real part a’ of closed loop poles & Proportional gain Kc for each set of values.<br />
+3. Enter the answer calculated above in their respective control box.<br />
+4. Check the answer for every set of values by clicking on the check button provided at the right hand side.<br />
+5. If you are satisfied with the answers click on the submit button to log your answers in an Excel file.<br />
+</div>
+</section>
+
+                            
+
+<section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>                   
+ 			<div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Quiz
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-6-content">
+                      <div class="divContent">
+					<div class="divQuiz"><div id="displayQuiz"><form name="form11" id="form11" method="post">
+						<table style="width:100%;margBacklash-left:0px" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">When Kc increases, the PM</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;"><div style="padding-left:25px;display:none;" id="hintDiv10"><input id="helpUsed10" name="helpUsed10" value="N" type="hidden"><img onclick="javascript:showHint('1812',10,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6820" name="ans0" value="6820" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6820">Increases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6821" name="ans0" value="6821" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6821">Decreases</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6822" name="ans0" value="6822" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6822"> Remains constant</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6823" name="ans0" value="6823" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6823">Increases,then decreases</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">If the GM is infinity, then the closed loop system is</span></td><td colspan="3" width="3%" style="margin-left:0px">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6824" style="vertical-align:middle" name="ans1" value="6824" type="radio"> <label for="ans6824" id="textAnsChoice">Unstable</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6825" style="vertical-align:middle" name="ans1" value="6825" type="radio"> <label for="ans6825" id="textAnsChoice">Stable</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6826" style="vertical-align:middle" name="ans1" value="6826" type="radio"> <label for="ans6826" id="textAnsChoice">Either stable or unstable</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6827" style="vertical-align:middle" name="ans1" value="6827" type="radio"> <label for="ans6827" id="textAnsChoice">Marginally stable</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">If the GM is infinity, then the phase crossover frequency is</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;"><div style="padding-left:25px;display:none;" id="hintDiv12"><input id="helpUsed12" name="helpUsed12" value="N" type="hidden"><img onclick="javascript:showHint('1814',12,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6828" name="ans2" value="6828" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6828">Zero</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6829" name="ans2" value="6829" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6829">Infinity</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6830" name="ans2" value="6830" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6830">Neither zero nor infinity</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6831" name="ans2" value="6831" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6831">Unity</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">At the phase crossover frequency, the magnitude</span></td><td colspan="3" width="3%">&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6832" name="ans3" value="6832" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6832">is zero</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6833" name="ans3" value="6833" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6833">is unity</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6834" name="ans3" value="6834" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6834">is infinity</label></td></tr><tr><td id="textAnsChoice" style="vertical-align:middle" align="right" width="32px"><input id="ans6835" name="ans3" value="6835" type="radio"> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6835">can have any value</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div>
+						<hr id="horizontalLine"><table style="width:100%" border="0" style="margin-left:0px"><tbody><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td style="vertical-align:top;" colspan="2" width="70%"><span id="question">The gain crossover frequency is the frequency at which</span></td><td style="padding-right:60px;" valign="top" width="14%" height="30px;" style="margin-left:0px"><div style="padding-left:25px;display:none;" id="hintDiv14"><input id="helpUsed14" name="helpUsed14" value="N" type="hidden"><img onclick="javascript:showHint('1816',14,'en-IN');" src="images/bulb.gif" style="cursor:pointer; margin:0px; border:none;" align="right" height="18"></div></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td colspan="5" width="80%"><table align="left" border="0" width="100%" style="margin-left:0px"><tbody><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6836" style="vertical-align:middle" name="ans4" value="6836" type="radio"> <label for="ans6836" id="textAnsChoice">The magnitude is zero</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6837" style="vertical-align:middle" name="ans4" value="6837" type="radio"> <label for="ans6837" id="textAnsChoice">The magnitude is unity</label></td></tr><tr><td id="textAnsChoice" style="padding-left:20px;" align="left" width="50%"><input id="ans6838" style="vertical-align:middle" name="ans4" value="6838" type="radio"> <label for="ans6838" id="textAnsChoice">The controller gain is unity</label></td><td id="textAnsChoice" style="padding-left:20px;" align="left"><input id="ans6839" style="vertical-align:middle" name="ans4" value="6839" type="radio"> <label for="ans6839" id="textAnsChoice">The controller gain is zero</label></td></tr></tbody></table></td></tr> </tbody></table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"><input id="loadTime" name="loadTime" value="1429350257/" align="middle" type="hidden"><br><div style="padding-left:40px;"><input name="submit1" id="submit1" value="&nbsp;Submit&nbsp;" style="width:8%;" onclick="get_radio_value();" type="submit">&nbsp;&nbsp;<input name="cancel1" id="cancel1" value="&nbsp;Cancel&nbsp;" style="width:8%;" type="reset"></div></form><br></div><br></div>
+						</div>   
+                            
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Things to think about
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                            
+                            <p><b>Things to think about</b><br />
+ 
+1.      For the maglev plant model only, what are the crossover frequencies w_gc,w_pc and the margins GM, PM? <br />
+2.      Why is the closed loop system stable for some range of negative values of Kc ?<br />
+(for example, Kc= -2000?)
+ 
+3.      Does the initial height  affect the PM? (Hint: keep all values at default, and decrease). <br />
+ 
+4.      Does the Bode phase plot change with Kc? Why?<br />
+ 
+5.      How does increase in friction coefficient affect the PM?<br /></p> 
+
+
+                            </div>
+                    </div>
+                </section>
+
+                     </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>
