@@ -6,9 +6,8 @@
                 "build_steps": {
                     "build": ["make -C ../src"], 
                     "configure": [], 
-                    "post_build": ["service apache2 restart"], 
-                    "pre_build": ["sudo apt-get update",
-                "sudo apt-get install -y php5 apache2 php5-mysql"], 
+                    "post_build": [], 
+                    "pre_build": [], 
                     "status": []
                 }, 
                 "installer": [], 
@@ -22,13 +21,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "pushpdeep@iitb.ac.in", 
+                        "email": "tapan.sau@iiit.ac.in", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Bombay", 
-                    "name": "pushpdeep mishra", 
+                    "institute": "IIIT Hyderabad", 
+                    "name": "Prabhakar B", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -37,25 +36,25 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "pushpdep@iitb.ac.in", 
+                        "email": "sourav.chatterjee@students.iiit.ac.in", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIT Bombay", 
-                    "name": "Pushpdeep", 
+                    "institute": "IIIT Hyderabad", 
+                    "name": "Sourav Chatterjee", 
                     "organization": "", 
-                    "role": "", 
+                    "role": "Lab RA", 
                     "title": "", 
                     "web": ""
                 }
             ], 
             "discipline": [
-                ""
+                "Physical Sciences"
             ], 
-            "id": "che01", 
+            "id": "phy14", 
             "integration_level": 4, 
-            "name": "Chemical engineering", 
+            "name": "Physical Sciences Virtual Lab", 
             "server-side": true, 
             "status": "Released", 
             "type": "Simulation"
@@ -64,11 +63,11 @@
             "platform": {
                 "arch": "i386", 
                 "hosting": "dedicated", 
-                "installer": [], 
+                "installer": ["sudo apt-get update","sudo apt-get install -y apache2 php5"], 
                 "lab_actions": {
                     "backup": [], 
                     "clean": [], 
-                    "init": ["mv /var/www/index.html index.html.default","cp -r ../build/* /var/www/","sh db_config.sh"], 
+                    "init": ["cp -r ../build/* /var/www/"], 
                     "pause": [], 
                     "publish": [], 
                     "restore": [], 
@@ -93,4 +92,3 @@
     }, 
     "template": "1.0"
 }
-
